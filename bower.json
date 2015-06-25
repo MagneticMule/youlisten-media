@@ -1,0 +1,23 @@
+{
+  "name": "youlisten",
+  "version": "0.1.1",
+  "homepage": "https://github.com/MagneticMule/youlisten-media",
+  "authors": [
+    "Thomas Sweeney <skywriter@gmail.com>"
+  ],
+  "description": "The theme for Youlisten.media Wordpress installation.",
+  "main": "index.php",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "lsri"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
