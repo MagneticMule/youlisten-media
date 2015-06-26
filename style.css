@@ -725,24 +725,27 @@ a:visited {}
 # Header
 --------------------------------------------------------------*/
 .site-header {
-	background-color: #232323;
-	border-bottom: 1px solid rgba(51, 51, 51, 0.1);
-	padding: .9em;
+	background-color: #fafafa;
+	border-bottom: solid 1px white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+	padding: 1%;
+	text-align: center;
 }
 
 .site-title {
 	font-family: "Noto Sans", sans-serif;
 	font-size: 22px;
 	font-size: 2.2rem;
-	font-weight: 700;
+	font-weight: 100;
 	text-decoration: none;
+
 	letter-spacing: -1px;
 	line-height: 1.3636;
 	margin-bottom: 0;
 }
 
 .site-header a, .site-header a:hover, .site-header a:focus, .site-header, .site-footer a, .site-footer a:hover {
-	color: #eaeaea;
+	color: black;
   font-size: 75%;
 }
 
@@ -779,7 +782,15 @@ a:visited {}
 }
 
 .hentry {
-	margin: 0 0 1.5em;
+	background-color: white;
+	border-radius: 2px;
+	padding: 4%;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	margin: 1%;
+}
+
+.youlisten.hentry {
+
 }
 
 .byline,
