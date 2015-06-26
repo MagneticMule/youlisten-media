@@ -20,6 +20,10 @@
 
 	<div class="entry-content">
 		<?php
+		if ( has_post_thumbnail() ) {
+			the_post_thumbnail('thumbnail', array('class' => 'alignleft '));
+		}
+
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
 				wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'youlisten' ), array( 'span' => array( 'class' => array() ) ) ),

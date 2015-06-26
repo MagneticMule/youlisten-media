@@ -68,7 +68,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 body {
-	background: #f1f1f1;
+	background: #e8e8e8;
 }
 
 article,
@@ -159,6 +159,10 @@ sub {
 
 img {
 	border: 0;
+}
+
+img-attachment-thumbnail{
+	padding:20px;
 }
 
 svg:not(:root) {
@@ -500,6 +504,10 @@ input[type="search"] {
 	padding: 3px;
 }
 
+input {
+	transition: all ease-in-out .3s;Ω
+}
+
 textarea {
 	padding-left: 3px;
 	width: 100%;
@@ -725,8 +733,8 @@ a:visited {}
 # Header
 --------------------------------------------------------------*/
 .site-header {
-	background-color: #fafafa;
-	border-bottom: solid 1px white;
+	background-color: #3e4954;
+	border-bottom: solid 1px #4f5a65;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
 	padding: 1%;
 	text-align: center;
@@ -738,14 +746,13 @@ a:visited {}
 	font-size: 2.2rem;
 	font-weight: 100;
 	text-decoration: none;
-
 	letter-spacing: -1px;
 	line-height: 1.3636;
 	margin-bottom: 0;
 }
 
 .site-header a, .site-header a:hover, .site-header a:focus, .site-header, .site-footer a, .site-footer a:hover {
-	color: black;
+	color: white;
   font-size: 75%;
 }
 
@@ -784,9 +791,9 @@ a:visited {}
 .hentry {
 	background-color: white;
 	border-radius: 2px;
-	padding: 4%;
+	padding: 1.5em;
 	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-	margin: 1%;
+	margin: 1.5em;
 }
 
 .youlisten.hentry {
